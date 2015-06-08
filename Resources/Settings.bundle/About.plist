@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Choice v1
+
+a P.o.E.M.M. platform by Jason Edward Lewis
+
+No Choice About the Terminology is a poem that plays with categories, definitions and the idea that, though we might have some choice about our terminology, we have no choice about our ontology. The title comes from an article in the New York Times describing an old-school ice cream parlor manager who insisted that things be called by their proper names: &quot;A scoop of ice-cream with topping on it is a sundae&quot;. Coming from a household in which ice-cream was taken very seriously indeed, and often struggling with what terminology to use to describe my ethnicity (Cherokee, Hawaiian, Samoan, raised in northern California rural mountain hippie-redneck culture), and my profession (artist? poet? software developer? educator? designer?), I am acutely aware of both the danger and seduction of neat categorizations.
+
+Programming by Christian Gratton and Elie Zananiri, from original code by Zananiri. Based on the NextText architecture by Lewis and Nadeau.
+
+2007 - 2012 © Jason Edward Lewis</string>
+		</dict>
+	</array>
+	<key>StringsTable</key>
+	<string>About</string>
+</dict>
+</plist>

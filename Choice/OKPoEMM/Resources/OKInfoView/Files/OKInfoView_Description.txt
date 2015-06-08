@@ -1,0 +1,14 @@
+No Choice About the Terminology is a poem that plays with categories, definitions and the idea that, though we might have some choice about our terminology, we have no choice about our ontology. The title comes from an article in the New York Times describing an old-school ice cream parlor manager who insisted that things be called by their proper names: "A scoop of ice-cream with topping on it is a sundae". Coming from a household in which ice-cream was taken very seriously indeed, and often struggling with what terminology to use to describe my ethnicity (Cherokee, Hawaiian, Samoan, raised in nothern California rural mountain hippie-redneck culture), and my profession (artist? poet? software developer? educator? designer?), I am acutely aware of both the danger and seduction of neat categorizations.
+
+Choice for the iPad/iPhone/iPod Touch is the fifth in a series of P.o.E.M.M.s (Poem for Excitable [Mobile] Media) created specifically for reading via touch interaction.
+
+To find out more about the P.o.E.M.M.s, please visit www.poemm.net, or look for the #poemm Twitter tag.
+
+Version 1.0.1
+
+Programming by Christian Gratton
+and Elie Zananiri, from original code by Zananiri.
+
+Based on the NextText architecture by Lewis and Nadeau
+
+2013 © Jason Edward Lewis
