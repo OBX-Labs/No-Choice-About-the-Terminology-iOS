@@ -1,6 +1,12 @@
 # No-Choice-About-the-Terminology-iOS
 
- Copyright (C) <2015>  <Jason Lewis>
+This program developed as part of the Poetry for Excitable [Mobile] Media, using the NextText architecture for interactive and dynamic texts. <br/>
+Project lead: Jason Edward Lewis. <br/>
+Technical Lead: Bruno Nadeau. <br/>
+See ww.poemm.net and www.nexttext.net for more information. <br/>
+To download the iOS app, visit: https://itunes.apple.com/app/no-choice-about-terminology/id475338554?mt=8
+
+ Copyright (C) <2015>  <Jason Edward Lewis>
   
     This program is free software: you can redistribute it and/or modify
     it under the terms of the BSD 3 clause with added Attribution clause license.
