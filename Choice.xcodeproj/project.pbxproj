@@ -29,7 +29,6 @@
 		D214A01616EB00E700409CA7 /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = D214A00716EB00E700409CA7 /* iTunesArtwork.png */; };
 		D214A01716EB00E700409CA7 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D214A00816EB00E700409CA7 /* iTunesArtwork@2x.png */; };
 		D22C969C16EE67B200DC3949 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D22C969B16EE67B200DC3949 /* Settings.bundle */; };
-		D22C96A016EE6C0100DC3949 /* Appirater.m in Sources */ = {isa = PBXBuildFile; fileRef = D22C969F16EE6C0100DC3949 /* Appirater.m */; };
 		D22C96A316EE6E4D00DC3949 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D22C96A216EE6E4D00DC3949 /* StoreKit.framework */; };
 		D23555CA15900F080075C5C3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D23555C915900F080075C5C3 /* UIKit.framework */; };
 		D23555CC15900F080075C5C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D23555CB15900F080075C5C3 /* Foundation.framework */; };
@@ -194,9 +193,6 @@
 		D214A00716EB00E700409CA7 /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = "<group>"; };
 		D214A00816EB00E700409CA7 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
 		D22C969B16EE67B200DC3949 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Settings.bundle; path = Resources/Settings.bundle; sourceTree = SOURCE_ROOT; };
-		D22C969E16EE6C0100DC3949 /* Appirater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Appirater.h; sourceTree = "<group>"; };
-		D22C969F16EE6C0100DC3949 /* Appirater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Appirater.m; sourceTree = "<group>"; };
-		D22C96A116EE6D1700DC3949 /* AppiraterDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppiraterDelegate.h; sourceTree = "<group>"; };
 		D22C96A216EE6E4D00DC3949 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		D23555C515900F080075C5C3 /* Choice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Choice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D23555C915900F080075C5C3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -443,16 +439,6 @@
 				D2149FEE16EAFFEE00409CA7 /* screenshot5.png */,
 			);
 			path = screenshots;
-			sourceTree = "<group>";
-		};
-		D22C969D16EE6C0100DC3949 /* Appirater */ = {
-			isa = PBXGroup;
-			children = (
-				D22C96A116EE6D1700DC3949 /* AppiraterDelegate.h */,
-				D22C969E16EE6C0100DC3949 /* Appirater.h */,
-				D22C969F16EE6C0100DC3949 /* Appirater.m */,
-			);
-			path = Appirater;
 			sourceTree = "<group>";
 		};
 		D23555BA15900F070075C5C3 = {
@@ -736,7 +722,6 @@
 			isa = PBXGroup;
 			children = (
 				D2A4FB7016EEACDC00C4C938 /* OKPreloader */,
-				D22C969D16EE6C0100DC3949 /* Appirater */,
 				D2380E0916EAAE35008DA8A4 /* DSActivityView */,
 				D2380E0C16EAAE35008DA8A4 /* OKAccountManager */,
 				D2380E1D16EAAE36008DA8A4 /* OKInfoView */,
@@ -1131,6 +1116,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = D23555BA15900F070075C5C3;
@@ -1306,7 +1292,6 @@
 				D2380EB916EAAE36008DA8A4 /* OKTextManager.m in Sources */,
 				D2380EBA16EAAE36008DA8A4 /* OKAppProperties.m in Sources */,
 				D2A5A85216EBBE5900C6661B /* OKImageManipulator.m in Sources */,
-				D22C96A016EE6C0100DC3949 /* Appirater.m in Sources */,
 				D2A4FB7316EEACDC00C4C938 /* OKPreloader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

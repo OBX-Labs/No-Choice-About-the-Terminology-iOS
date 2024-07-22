@@ -7,12 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "Appirater.h"
 
 @class OKPoEMM;
 @class EAGLView;
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate, AppiraterDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (nonatomic, strong) UIWindow *window;
 @property (nonatomic, strong) OKPoEMM *poemm;
@@ -21,6 +20,5 @@
 - (void) setDefaultValues;
 - (void) promptPerformancePassword;
 - (void) loadOKPoEMMInFrame:(CGRect)frame;
-- (void) manageAppirater;
 
 @end
