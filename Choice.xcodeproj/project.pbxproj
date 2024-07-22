@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		270381442C4E95C8000B936D /* OBXKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270381432C4E95C8000B936D /* OBXKit.framework */; };
+		270381452C4E95C8000B936D /* OBXKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 270381432C4E95C8000B936D /* OBXKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		570E92972045B94A004526EF /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 570E92962045B94A004526EF /* Media.xcassets */; };
 		D2149FF016EAFFEE00409CA7 /* screenshot1.png in Resources */ = {isa = PBXBuildFile; fileRef = D2149FE616EAFFEE00409CA7 /* screenshot1.png */; };
 		D2149FF216EAFFEE00409CA7 /* screenshot2.png in Resources */ = {isa = PBXBuildFile; fileRef = D2149FE816EAFFEE00409CA7 /* screenshot2.png */; };
@@ -170,7 +172,22 @@
 		D2E98F2B16E9F56B00290F57 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2E98F2A16E9F56B00290F57 /* Social.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		270381462C4E95C8000B936D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				270381452C4E95C8000B936D /* OBXKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		270381432C4E95C8000B936D /* OBXKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OBXKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		570E92962045B94A004526EF /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		D2149FE616EAFFEE00409CA7 /* screenshot1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot1.png; sourceTree = "<group>"; };
 		D2149FE816EAFFEE00409CA7 /* screenshot2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot2.png; sourceTree = "<group>"; };
@@ -417,6 +434,7 @@
 				D2355677159012A60075C5C3 /* QuartzCore.framework in Frameworks */,
 				D2355675159012A00075C5C3 /* OpenGLES.framework in Frameworks */,
 				D23556731590129A0075C5C3 /* libxml2.dylib in Frameworks */,
+				270381442C4E95C8000B936D /* OBXKit.framework in Frameworks */,
 				D2355671159012900075C5C3 /* Security.framework in Frameworks */,
 				D235566F1590128A0075C5C3 /* SystemConfiguration.framework in Frameworks */,
 				D235566D159012820075C5C3 /* MessageUI.framework in Frameworks */,
@@ -462,6 +480,7 @@
 		D23555C815900F080075C5C3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				270381432C4E95C8000B936D /* OBXKit.framework */,
 				D22C96A216EE6E4D00DC3949 /* StoreKit.framework */,
 				D2E98F2A16E9F56B00290F57 /* Social.framework */,
 				D2E98F2816E9F56400290F57 /* Accounts.framework */,
@@ -1086,6 +1105,7 @@
 				D23555C115900F080075C5C3 /* Sources */,
 				D23555C215900F080075C5C3 /* Frameworks */,
 				D23555C315900F080075C5C3 /* Resources */,
+				270381462C4E95C8000B936D /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
