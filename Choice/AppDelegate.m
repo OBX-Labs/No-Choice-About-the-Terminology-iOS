@@ -6,7 +6,7 @@
 //  Copyright (c) 2012 Christian Gratton. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import <OBXKit/AppDelegate.h>
 
 #import "EAGLView.h"
 #import "OKPoEMM.h"

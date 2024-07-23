@@ -13,7 +13,7 @@
 #import "OKBitmapFont.h"
 #import "OKTextObject.h"
 
-#import "AppDelegate.h"
+#import <OBXKit/AppDelegate.h>
 #import "OKPoEMMProperties.h"
 #import "OKTextManager.h"
 

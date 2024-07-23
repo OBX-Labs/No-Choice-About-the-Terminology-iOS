@@ -7,7 +7,7 @@
 //
 
 #import "OKPoEMM.h"
-#import "AppDelegate.h"
+#import <OBXKit/AppDelegate.h>
 #import "EAGLView.h"
 #import "OKAppProperties.h"
 #import "OKInfoViewProperties.h"

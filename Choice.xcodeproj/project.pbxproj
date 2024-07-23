@@ -219,7 +219,6 @@
 		D23555D315900F080075C5C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D23555D515900F080075C5C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D23555D715900F080075C5C3 /* Choice-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Choice-Prefix.pch"; sourceTree = "<group>"; };
-		D23555D815900F080075C5C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D23555D915900F080075C5C3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D23555EC159010800075C5C3 /* EAGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EAGLView.h; path = OpenGLES/EAGLView.h; sourceTree = "<group>"; };
 		D23555ED159010800075C5C3 /* EAGLView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = EAGLView.mm; path = OpenGLES/EAGLView.mm; sourceTree = "<group>"; };
@@ -500,7 +499,6 @@
 		D23555CF15900F080075C5C3 /* Choice */ = {
 			isa = PBXGroup;
 			children = (
-				D23555D815900F080075C5C3 /* AppDelegate.h */,
 				D23555D915900F080075C5C3 /* AppDelegate.m */,
 				D2380E0816EAAE35008DA8A4 /* OKPoEMM */,
 				D23555E115900F210075C5C3 /* OpenGLES */,
