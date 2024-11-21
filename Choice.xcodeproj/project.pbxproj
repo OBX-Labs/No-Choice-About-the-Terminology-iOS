@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		270381442C4E95C8000B936D /* OBXKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270381432C4E95C8000B936D /* OBXKit.framework */; };
-		270381452C4E95C8000B936D /* OBXKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 270381432C4E95C8000B936D /* OBXKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		570E92972045B94A004526EF /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 570E92962045B94A004526EF /* Media.xcassets */; };
 		D2149FF016EAFFEE00409CA7 /* screenshot1.png in Resources */ = {isa = PBXBuildFile; fileRef = D2149FE616EAFFEE00409CA7 /* screenshot1.png */; };
 		D2149FF216EAFFEE00409CA7 /* screenshot2.png in Resources */ = {isa = PBXBuildFile; fileRef = D2149FE816EAFFEE00409CA7 /* screenshot2.png */; };
@@ -179,7 +177,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				270381452C4E95C8000B936D /* OBXKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -187,7 +184,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		270381432C4E95C8000B936D /* OBXKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OBXKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		570E92962045B94A004526EF /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		D2149FE616EAFFEE00409CA7 /* screenshot1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot1.png; sourceTree = "<group>"; };
 		D2149FE816EAFFEE00409CA7 /* screenshot2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot2.png; sourceTree = "<group>"; };
@@ -434,7 +430,6 @@
 				D2355677159012A60075C5C3 /* QuartzCore.framework in Frameworks */,
 				D2355675159012A00075C5C3 /* OpenGLES.framework in Frameworks */,
 				D23556731590129A0075C5C3 /* libxml2.dylib in Frameworks */,
-				270381442C4E95C8000B936D /* OBXKit.framework in Frameworks */,
 				D2355671159012900075C5C3 /* Security.framework in Frameworks */,
 				D235566F1590128A0075C5C3 /* SystemConfiguration.framework in Frameworks */,
 				D235566D159012820075C5C3 /* MessageUI.framework in Frameworks */,
@@ -480,7 +475,6 @@
 		D23555C815900F080075C5C3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				270381432C4E95C8000B936D /* OBXKit.framework */,
 				D22C96A216EE6E4D00DC3949 /* StoreKit.framework */,
 				D2E98F2A16E9F56B00290F57 /* Social.framework */,
 				D2E98F2816E9F56400290F57 /* Accounts.framework */,
@@ -1126,7 +1120,7 @@
 				ORGANIZATIONNAME = "Christian Gratton";
 				TargetAttributes = {
 					D23555C415900F080075C5C3 = {
-						DevelopmentTeam = 6B68QQG3FR;
+						DevelopmentTeam = 8WM835VJ56;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -1426,13 +1420,15 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6B68QQG3FR;
+				CURRENT_PROJECT_VERSION = 1.2.73;
+				DEVELOPMENT_TEAM = 8WM835VJ56;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Choice/Choice-Prefix.pch";
 				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = "Choice/Choice-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				PRODUCT_BUNDLE_IDENTIFIER = net.obxlabs.Choice;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				MARKETING_VERSION = 1.0.5;
+				PRODUCT_BUNDLE_IDENTIFIER = net.obxlabs.poemm.choice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1450,13 +1446,15 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6B68QQG3FR;
+				CURRENT_PROJECT_VERSION = 1.2.73;
+				DEVELOPMENT_TEAM = 8WM835VJ56;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Choice/Choice-Prefix.pch";
 				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = "Choice/Choice-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				PRODUCT_BUNDLE_IDENTIFIER = net.obxlabs.Choice;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				MARKETING_VERSION = 1.0.5;
+				PRODUCT_BUNDLE_IDENTIFIER = net.obxlabs.poemm.choice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1519,13 +1517,15 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6B68QQG3FR;
+				CURRENT_PROJECT_VERSION = 1.2.73;
+				DEVELOPMENT_TEAM = 8WM835VJ56;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Choice/Choice-Prefix.pch";
 				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = "Choice/Choice-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				PRODUCT_BUNDLE_IDENTIFIER = net.obxlabs.Choice;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				MARKETING_VERSION = 1.0.5;
+				PRODUCT_BUNDLE_IDENTIFIER = net.obxlabs.poemm.choice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
