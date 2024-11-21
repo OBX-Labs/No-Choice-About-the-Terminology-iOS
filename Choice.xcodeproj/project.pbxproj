@@ -1426,6 +1426,7 @@
 				GCC_PREFIX_HEADER = "Choice/Choice-Prefix.pch";
 				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = "Choice/Choice-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Choice;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				MARKETING_VERSION = 1.0.5;
 				PRODUCT_BUNDLE_IDENTIFIER = net.obxlabs.poemm.choice;
@@ -1452,6 +1453,7 @@
 				GCC_PREFIX_HEADER = "Choice/Choice-Prefix.pch";
 				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = "Choice/Choice-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Choice;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				MARKETING_VERSION = 1.0.5;
 				PRODUCT_BUNDLE_IDENTIFIER = net.obxlabs.poemm.choice;
@@ -1523,6 +1525,7 @@
 				GCC_PREFIX_HEADER = "Choice/Choice-Prefix.pch";
 				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = "Choice/Choice-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Choice;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				MARKETING_VERSION = 1.0.5;
 				PRODUCT_BUNDLE_IDENTIFIER = net.obxlabs.poemm.choice;
